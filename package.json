@@ -35,7 +35,7 @@
     },
     "dependencies": {
         "react-native-fs": "git://github.com/remobile/react-native-fs.git",
-        "react-native-webview-bridge": "^0.33.0"
+        "react-native-webview-bridge": "^0.40.1"
     },
     "devDependencies": {
         "gulp": "^3.9.1",
