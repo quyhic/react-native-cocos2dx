@@ -7,7 +7,7 @@ const {
     Platform,
     Dimensions,
 } = ReactNative;
-
+var createReactClass = require('create-react-class');
 const WebView = require('react-native-webview-bridge');
 const fs = require('react-native-fs');
 const resolveAssetSource = require('react-native/Libraries/Image/resolveAssetSource.js');
@@ -19,7 +19,7 @@ resolveAssetSource.setCustomSourceTransformer((resolver) => {
 });
 const source = require('./remobile-cocos2dx.html');
 
-module.exports = React.createClass({
+module.exports = createReactClass({
     getDefaultProps () {
         const { width, height } = Dimensions.get('window');
         return {
